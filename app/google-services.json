@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "206971398045",
+    "firebase_url": "https://toronto-cc883.firebaseio.com",
+    "project_id": "toronto-cc883",
+    "storage_bucket": "toronto-cc883.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206971398045:android:39ea03e5d064f226",
+        "android_client_info": {
+          "package_name": "com.guillermo.toronto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206971398045-ae3h92t3526q183c3gudr0n1oe5or0lh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE1NbXIOv8aws9SloFBgzBar4K5GyBc0Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

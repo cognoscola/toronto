@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_item"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:padding="15dp"
+    android:background="@drawable/grey_background"
+    android:layout_margin="8dp"
+    android:weightSum="5"
+    >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/iv_item_image"
+        android:maxHeight="300dp"
+        android:layout_weight="4"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <TextView
+            android:id="@+id/tv_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:layout_weight="4"
+            android:gravity="center_vertical"
+            android:textSize="25sp"
+            tools:text="0"
+            android:textColor="@color/white_100"/>
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/favourite_off"
+            android:id="@+id/iv_item_favourite"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
